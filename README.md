@@ -35,3 +35,61 @@ After cleaning, some of the key columns used in the analysis include:
 ### During data cleaning, the following steps are performed:
 - Dropping unrelated or blank columns: Status, unnamed1
 - Handling missing values.
+
+### 📊 Analysis & Visualizations
+
+The notebook walks through several stages of EDA:
+
+1. Data Understanding & Cleaning
+
+Inspecting the shape, head, and info of the DataFrame.
+
+Dropping unnecessary columns.
+
+Handling null values.
+
+Converting data types.
+
+2. Univariate & Bivariate Analysis
+
+Key visualizations (using Matplotlib and Seaborn):
+
+Gender:
+
+  Count of customers by gender.
+
+  Total sales amount by gender.
+
+Age Group:
+
+  Distribution of customers by age group.
+
+  Amount spent per age group (with gender comparisons).
+
+- State:
+
+  Top 10 states by number of orders.
+
+  Top 10 states by total sales amount.
+
+- Marital Status:
+
+  Distribution of customers by marital status.
+
+  Sales amount by marital status, further split by gender.
+
+- Occupation:
+
+  Count of customers by occupation.
+
+  Sales amount by occupation.
+
+- Product Category & Product ID:
+
+  Number of orders by product category.
+
+  Total sales amount by product category.
+
+  Top 10 most sold products by Product_ID.
+
+### All visualizations are plotted using bar charts and count plots to clearly present trends and comparisons.
